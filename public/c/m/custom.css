@@ -1,0 +1,190 @@
+/* Materialize Admin */
+
+.gradient-45deg-bastateu {
+    background: #DA0C0C;
+    background: -webkit-linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+    background: linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+}
+
+.gradient-45deg-button-good {
+    background: #DA0C0C;
+    background: -webkit-linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+    background: linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+}
+
+.sidenav li a.active {
+    background: #DA0C0C;
+    background: -webkit-linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+    background: linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+}
+
+.pagination li.active {
+    background: #DA0C0C;
+    background: -webkit-linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+    background: linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+}
+
+#breadcrumbs-wrapper {
+    background: none;
+}
+
+.text-color-good {
+    color: #DA0C0C;
+}
+
+table thead tr th {
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+table tbody tr td {
+    font-size: 12px !important;
+}
+
+ul.pagination li a {
+    font-size: 12px !important;
+}
+
+.swal-button--confirm {
+    background: linear-gradient(to right, #6565a8, #6565a8); ;
+}
+
+.swal-button--confirm:hover {
+    opacity: .8; 
+}
+
+.swal-button--danger {
+    background: linear-gradient(to right, #c94d47, #e64942); ;
+}
+
+.swal-button--cancel:focus
+{
+    outline: none;
+    background-color: #E8E8E8;
+}
+
+.responsive-table-bt {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+a.brand-logo 
+{
+    padding-top: 17px !important; 
+    padding-bottom: 17px !important;
+}
+
+img.batis-logo
+{
+    height: 30px !important;
+}
+
+.sidenav-main {
+    width: 220px;
+}
+
+.navbar .sideNav-lock .header-search-wrapper
+{
+    width: calc(100% - 420px);
+    margin: 10px auto 0 230px;
+}
+
+.sidenav-active-rounded .sidenav li > a, .sidenav-active-rounded .sidenav li a.collapsible-header {
+    margin-right: 0.5rem;
+    padding: 0 0 0 12px !important;
+}
+
+.sidenav-active-rounded .sidenav li > a.active {
+    margin-right: 0.5rem;
+}
+
+.sidenav li > a > i.material-icons, .sidenav li a.collapsible-header > i.material-icons {
+    margin-right: 12px;
+}
+
+.sidenav li > a > i.material-icons, .sidenav li a.collapsible-header > i.material-icons {
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.sidenav li a i {
+    margin-right: 0.4rem;
+}
+
+select {
+    padding-left: 0;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly])
+{
+    border-bottom: 1px solid #c94d47;
+    box-shadow: 0 1px 0 0 #c94d47;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label
+{
+    color: #c94d47;
+}
+
+.input-field .prefix.active {
+    color: #c94d47;
+}
+
+input[type='radio']:checked + span:after,
+input[type='radio'].with-gap:checked + span:before,
+input[type='radio'].with-gap:checked + span:after
+{
+  border: 2px solid #c94d47;
+}
+
+input[type='radio']:checked + span:after,
+input[type='radio'].with-gap:checked + span:after
+{
+  background-color: #c94d47;
+}
+
+input[type='checkbox'].filled-in:checked + span:not(.lever):after {
+  border: 2px solid #c94d47;
+  background-color: #c94d47;
+}
+
+input[type='checkbox']:checked + span:not(.lever):before
+{
+  border-top: 2px solid transparent;
+  border-right: 2px solid #c94d47;
+  border-bottom: 2px solid #c94d47;
+}
+
+
+@media only screen and (min-width: 993px){
+    #main {
+      padding-left: 220px;
+    }
+    .nav-lock ~ footer {
+      padding-left: 220px;
+    }
+}

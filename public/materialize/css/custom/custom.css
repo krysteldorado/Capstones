@@ -1,0 +1,58 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 5.0
+	Author: PIXINVENT
+	Author URL: https://themeforest.net/user/pixinvent/portfolio
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.gradient-45deg-bastateu {
+    background: #DA0C0C;
+    background: -webkit-linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+    background: linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+}
+
+.gradient-45deg-button-good {
+    background: #DA0C0C;
+    background: -webkit-linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+    background: linear-gradient(45deg, #DA0C0C, #E34B4B) !important;
+}
+
+.text-color-good {
+    color: #DA0C0C;
+}
+
+table thead tr th {
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+table tbody tr td {
+    font-size: 12px !important;
+}
+
+ul.pagination li a {
+    font-size: 12px !important;
+}
+
+.swal-button--confirm {
+    background: linear-gradient(to right, #6565a8, #6565a8); ;
+}
+
+.swal-button--confirm:hover {
+    opacity: .8; 
+}
+
+.swal-button--danger {
+    background: linear-gradient(to right, #c94d47, #e64942); ;
+}
+
+.swal-button--cancel:focus
+{
+    outline: none;
+    background-color: #E8E8E8;
+}
