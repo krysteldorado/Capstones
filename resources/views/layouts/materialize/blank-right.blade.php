@@ -32,7 +32,7 @@
         <div class="col s12 l6 hide-on-med-and-down">
             <div class="container">
                 <div id="login-page" class="row">
-                    <img src="{{ asset('img/batis-logo.png') }}" class="center-align" alt="" style="width: 320px;">
+                    <img src="{{ asset('img/LOGO.png') }}" class="center-align" alt="" style="width: 320px;">
                 </div>
             </div>
         </div>

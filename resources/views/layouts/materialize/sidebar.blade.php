@@ -6,7 +6,7 @@
         <h1 class="logo-wrapper">
             <a class="brand-logo darken-1" href="{{ route('signin') }}">
                 <div class="valign-wrapper">
-                    <img class="hide-on-med-and-down batis-logo" src="{{ asset('img/LOGO.png') }}" alt="materialize logo" />
+                    <img class="hide-on-med-and-down LOGO" src="{{ asset('img/LOGO.png') }}" alt="materialize logo" />
                     {{-- <img class="show-on-medium-and-down hide-on-med-and-up" src="{{ asset('materialize/images/logo/materialize-logo-color.png') }}" alt="materialize logo" /> --}}
                     <span class="logo-text hide-on-med-and-down">ALTEA</span>
                 </div>

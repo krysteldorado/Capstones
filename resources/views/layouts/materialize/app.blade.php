@@ -10,8 +10,8 @@
     <meta name="keywords" content="materialize, admin template, dashboard template, flat admin template, responsive admin template, eCommerce dashboard, analytic dashboard">
     <meta name="author" content="ThemeSelect">
     <title>ALTEA</title>
-    <link rel="apple-touch-icon" href="{{ asset('img/batis-logo.png') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/batis-logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('img/LOGO.png') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/LOGO.png') }}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- BEGIN: VENDOR CSS-->
     <link rel="stylesheet" type="text/css" href="{{ asset('materialize/vendors/vendors.min.css') }}">

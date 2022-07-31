@@ -2,7 +2,7 @@
     <div class="row">
         <div class="input-field col s12">
             <h5 class="center-align">
-                Welcome to BATIS!
+                Welcome to ALTEA!
             </h5>
             <a href="">
                 <h6 class="center-align" style="font-size: 13.5px;">
