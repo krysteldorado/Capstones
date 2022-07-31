@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>BATIS</title>
+        <title>ALTEA</title>
         
-        <link rel="apple-touch-icon" href="{{ asset('img/batis-logo.png') }}">
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/batis-logo.png') }}">
+        <link rel="apple-touch-icon" href="{{ asset('img/LOGO.png') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('img/LOGO.png') }}">
         <link rel="stylesheet" href="{{ asset('socialv/css/libs.min.css') }}">
         <link rel="stylesheet" href="{{ asset('socialv/css/socialv.css?v=4.0.0') }}">
         <link rel="stylesheet" href="{{ asset('socialv/vendor/@fortawesome/fontawesome-free/css/all.min.css') }}">
