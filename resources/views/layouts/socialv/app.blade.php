@@ -116,8 +116,8 @@
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
                     <div class="iq-navbar-logo d-flex justify-content-between">
                         <a href="../dashboard/index.html">
-                            <img src="{{ asset('img/batis-logo.png') }}" class="img-fluid" alt="">
-                            <span>BATIS</span>
+                            <img src="{{ asset('img/LOGO.png') }}" class="img-fluid" alt="">
+                            <span>ALTEA</span>
                         </a>
                         <div class="iq-menu-bt align-self-center">
                             <div class="wrapper-menu">

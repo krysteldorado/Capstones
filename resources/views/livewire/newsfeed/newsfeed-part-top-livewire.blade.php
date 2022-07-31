@@ -10,7 +10,7 @@
                 <img src="{{ asset('socialv/images/user/1.jpg') }}" alt="userimg" class="avatar-60 rounded-circle">
             </div>
             <form class="post-text ms-3 w-100 "  data-bs-toggle="modal" data-bs-target="#post-modal" action="javascript:void();">
-                <input type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;">
+                <input type="text" class="form-control rounded" placeholder="Write your status here..." style="border:none;">
             </form>
         </div>
         <hr>
