@@ -49,28 +49,8 @@
                             </a>
                         </li>
                         <li class="">
-                            <a href="../dashboard/friend-list.html" class=" ">
-                                <i class="las la-user-friends"></i><span>Friend List</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="../dashboard/friend-profile.html" class=" ">
-                                <i class="las la-user-friends"></i><span>Friend Profile</span>
-                            </a>
-                        </li>
-                        <li class="">
                             <a href="../app/group.html" class=" ">
                                 <i class="las la-users"></i><span>Group</span>
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="../app/profile-images.html" class=" ">
-                                <i class="las la-image"></i><span>Profile Image</span>
-                            </a>
-                       
-                        <li class=" ">
-                            <a href="../app/profile-event.html" class=" ">
-                                <i class="las la-film"></i><span>Profile Events</span>
                             </a>
                         </li>
                         
@@ -78,11 +58,6 @@
                         <li class=" ">
                             <a href="../dashboard" class=" ">
                                 <i class="las la-bell"></i><span>Notification</span>
-                            </a>
-                        </li>
-                        <li class=" ">
-                            <a href="../dashboard/file.html" class=" ">
-                                <i class="las la-file"></i><span>Files</span>
                             </a>
                         </li>
                         <li class=" ">
