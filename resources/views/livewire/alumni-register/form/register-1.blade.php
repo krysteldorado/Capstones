@@ -7,7 +7,7 @@
                 @error('register.firstname') <small class="text-danger">{{ $message }}</small> @enderror
             </div>
             <div class="form-group">
-                <input wire:model="register.middlename" type="text" class="form-control" name="middlename" placeholder="Middle Name *" />
+                <input wire:model="register.middlename" type="text" class="form-control" name="middlename" placeholder="Middle Name " />
                 @error('register.middlename') <small class="text-danger">{{ $message }}</small> @enderror
             </div>
             <div class="form-group">

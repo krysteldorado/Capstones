@@ -1,4 +1,4 @@
-<div class="col-lg-4">
+<!-- <div class="col-lg-4">
     <div class="card">
         <div class="card-header d-flex justify-content-between">
             <div class="header-title">
@@ -96,18 +96,7 @@
                 <img src="{{ asset('socialv/images/small/img-1.jpg') }}" class="img-fluid rounded" alt="Responsive image">
                 <div class="mt-3"><a href="#" class="btn d-block"><i class="ri-thumb-up-line me-2"></i> Like Page</a></div>
             </li>
-            <li class="">
-                <div class="d-flex align-items-center mb-3">
-                    <img src="{{ asset('socialv/images/page-img/42.png') }}" alt="story-img" class="rounded-circle img-fluid avatar-50">
-                    <div class="stories-data ms-3">
-                        <h5>Cakes & Bakes </h5>
-                        <p class="mb-0">Lorem Ipsum</p>
-                    </div>
-                </div>
-                <img src="{{ asset('socialv/images/small/img-2.jpg') }}" class="img-fluid rounded" alt="Responsive image">
-                <div class="mt-3"><a href="#" class="btn d-block"><i class="ri-thumb-up-line me-2"></i> Like Page</a></div>
-            </li>
         </ul>
         </div>
     </div>
-</div>
+</div> -->

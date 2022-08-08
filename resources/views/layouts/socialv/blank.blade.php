@@ -41,4 +41,5 @@
     <script src="{{ asset('socialv/js/app.js') }}"></script>
     <script src="{{ asset('socialv/vendor/vanillajs-datepicker/dist/js/datepicker.min.js') }}"></script>
     <script src="{{ asset('socialv/js/lottie.js') }}"></script>
+    
 </html>

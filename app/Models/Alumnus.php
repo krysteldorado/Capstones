@@ -13,6 +13,11 @@ class Alumnus extends Model
         'user_id',
         'program_id',
         'graduated_at',
+        'profile_pic',
+        'cover_photo',
+        'birthday',
+        'address',
+        'age',
     ];
 
     // protected $attributes = [

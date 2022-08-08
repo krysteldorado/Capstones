@@ -62,7 +62,7 @@
                         </li>
                         <li class=" ">
                             <a href="../dashboard/friend-request.html" class=" ">
-                                <i class="las la-anchor"></i><span>Friend Request</span>
+                                <i class="ri-group-line"></i><span>Friend Request</span>
                             </a>
                         </li>
                         <li class=" ">

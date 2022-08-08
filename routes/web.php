@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use App\Http\Livewire\User\GradLivewire;
 use App\Http\Controllers\TestController;
+use App\Http\Livewire\User\GradLivewire;
 use App\Http\Livewire\User\UserLivewire;
 use App\Http\Livewire\Auth\SigninLivewire;
 use App\Http\Livewire\Campus\CampusLivewire;
@@ -19,6 +19,8 @@ use App\Http\Controllers\File\UniversityController;
 use App\Http\Livewire\User\AlumProgramFormLivewire;
 use App\Http\Livewire\University\UniversityLivewire;
 use App\Http\Livewire\Designation\DesignationLivewire;
+use App\Http\Livewire\AlumniProfile\EditProfileLivewire;
+use App\Http\Livewire\AlumniProfile\AlumniProfileLivewire;
 use App\Http\Livewire\AlumniSection\AlumniSectionLivewire;
 use App\Http\Livewire\User\UserDesignationAllumniLivewire;
 use App\Http\Livewire\AlumniRegister\AlumniRegisterLivewire;
@@ -26,11 +28,11 @@ use App\Http\Livewire\User\Page\UserDesignationCampusLivewire;
 use App\Http\Livewire\User\Designation\UserDesignationLivewire;
 use App\Http\Livewire\User\Page\UserDesignationCollegeLivewire;
 use App\Http\Livewire\User\Page\UserDesignationProgramLivewire;
-use App\Http\Livewire\User\Page\UserDesignationGraduateLivewire;
 use App\Http\Livewire\RegisteredAlumni\RegisteredAlumniLivewire;
+use App\Http\Livewire\User\Page\UserDesignationGraduateLivewire;
 use App\Http\Livewire\User\Page\UserDesignationUniversityLivewire;
 use App\Http\Livewire\RegisteredAlumni\RegisteredAlumniFormLivewire;
-
+use App\Http\Livewire\AdminDashboard\AdminDashboardLivewire;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -68,8 +70,13 @@ Route::middleware(['user'])->group(function () {
     
     Route::get('/employer', EmployerLivewire::class)->name('employer');
     
-
     Route::get('/newsfeed', NewsfeedLivewire::class)->name('newsfeed');
+
+    Route::get('/dash', AdminDashboardLivewire::class)->name('dash');
+
+    Route::get('/profile', AlumniProfileLivewire::class)->name('profile');
+
+    Route::get('/editprofile', EditProfileLivewire::class)->name('/editprofile');
 
     Route::prefix('/user')->group(function () {
         

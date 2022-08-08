@@ -1,7 +1,11 @@
 <div class="container register">
     <div class="row">
-        <div class="col-md-3 register-left"> </div>
-            <div class="col-md-9 register-right">
+        <div class="col-md-3 register-left"> <img src="img/LOGO.png" alt="" />
+         <h3>ALTEA</h3> 
+         <h6>Already have an account? <h6> 
+          <button  type="button"  class="btnSgn "> <a href="/">  <h5> Sign-in </h5> </a> </button>                                  
+       </div>
+         <div class="col-md-9 register-right">
                 <div class="card-body">
                     <div class="tab-content" id="myTabContent">
                         <form wire:submit.prevent="save">
@@ -13,16 +17,16 @@
                                     <div class="text-end">
                                         @if ( $step<$last_step )
                                             @if ( $step>1 )
-                                                <button wire:click="prev" type="button" id="prev" class="btn btn-dark ms-1">
+                                                <button wire:click="prev" type="button" id="prev" class="btnDrk ">
                                                     Previous
-                                                </button>
+                                                </button><br>
                                             @endif
                                             @if ( $step<2 )
-                                                <button wire:click="next" type="button" id="next" class="btn btn-primary ms-1">
+                                                <button wire:click="next" type="button" id="next" class="btnRegister">
                                                     Next
                                                 </button>
                                                 @else
-                                                <button wire:click="submit" type="button" id="submit" class="btn btn-success ms-1">
+                                                <button wire:click="submit" type="button" id="submit" class="btnRegister">
                                                     Submit
                                                 </button>
                                             @endif
