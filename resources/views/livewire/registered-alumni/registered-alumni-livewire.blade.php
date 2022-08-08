@@ -34,10 +34,10 @@
                                         <td>
                                             {{ $registered->email }}
                                         </td>
-                                        <td> <button wire:click ="$emit('view', {{ $registered->id }} )" class="btn btn-primary">
+                                        <td> <button wire:click ="$emit('view', {{ $registered->id }} )" class="btn btnaccp">
                                             View
                                         </button>
-                                        <button type="button" wire:click="deleteId({{ $registered->id }},'delete')" class="btn btn-danger" 
+                                        <button type="button" wire:click="deleteId({{ $registered->id }},'delete')" class="btn btncls" 
                                             data-toggle="modal" data-target="#exampleModal">Delete</button>
                                         </td>
                                     </tr>
@@ -70,8 +70,8 @@
                                             <p>Are you sure want to delete?</p>
                                         </div>
                                     <div class="modal-footer">
-                                        <button type="button" data-bs-dismiss="modal"class="btn btn-secondary">Close</button>
-                                        <button type="button" wire:click.prevent="delete()" class="btn btn-danger">Yes, Delete</button>
+                                        <button type="button" data-bs-dismiss="modal"class="btn btncls">Close</button>
+                                        <button type="button" wire:click.prevent="delete()" class="btn btnaccp">Yes, Delete</button>
                                     </div>
                                 </div>
                             </div>
@@ -91,8 +91,8 @@
                                         <h3>Are you sure?</h3>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" wire:click="closeDeleteModal">Cancel</button>
-                                        <button type="button" class="btn btn-primary" wire:click="destroy">Yes</button>
+                                        <button type="button" class="btn btncls" wire:click="closeDeleteModal">Cancel</button>
+                                        <button type="button" class="btn btnaccp" wire:click="destroy">Yes</button>
                                     </div>
                                 </div>
                             </div>

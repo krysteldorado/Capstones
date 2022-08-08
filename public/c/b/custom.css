@@ -6,7 +6,7 @@
 .register-left{
     text-align: center;
     color: #fff;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 .register-left input{
     border: none;
@@ -28,7 +28,7 @@
 .register-left img{
     margin-top: 15%;
     margin-bottom: 5%;
-    width: 25%;
+    width: 100%;
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 1s infinite  alternate;
 }
@@ -49,22 +49,75 @@
     padding: 10%;
     margin-top: 10%;
 }
-.btnRegister{
-    float: right;
-    margin-top: 10%;
+
+.btnDrk{
+    display:inline-table;
+    margin-bottom: 2%;
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: #0062cc;
+    background:-webkit-linear-gradient(left, #2c2e2e, #727575);
     color: #fff;
     font-weight: 600;
     width: 50%;
     cursor: pointer;
 }
+.btnRegister{
+    display:inline-table;
+    margin-bottom: 2%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background:-webkit-linear-gradient(left, #DA0C0C, #E34B4B);
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.btnaccp{
+    background:-webkit-linear-gradient(left, #DA0C0C, #E34B4B);
+    color: #fcfcfc;
+}
+.btncls{
+    background:-webkit-linear-gradient(left, #2c2e2e, #727575);
+    color: #fff;
+}
+.btnSgn{
+    display:inline-table;
+    margin-bottom: 2%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background:#fcfcfc;
+    font-weight: 600;
+    height: 10%;
+    width: 90%;
+    cursor: pointer;
+    margin-top: 40%;
+}
+
+h3,h6{
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#fff;
+}
+
+.mdlfrm{
+   float: left;
+    width: 45%;
+    margin-left: 3%;
+   
+}
+
+h5,h7{ 
+    color: #0e0f0f;
+    font-weight: 600;
+    }
+    
 .register .nav-tabs{
     margin-top: 3%;
     border: none;
-    background: #0062cc;
+    background: #E34B4B ;
     border-radius: 1.5rem;
     width: 28%;
     float: right;

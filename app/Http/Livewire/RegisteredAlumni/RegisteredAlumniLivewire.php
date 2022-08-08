@@ -58,9 +58,6 @@ class RegisteredAlumniLivewire extends Component
     public function get_registered()
     {
         return AlumniRegister::query() //AlumniReg Table
-        //  ->select('alumni_registers.*')
-        //   ->join('programs', 'programs.id', '=', 'alumni_sections.program_id')
-
             ->search($this->search)
             ->orderBy('lastname')
             ->paginate($this->show_row);
@@ -77,13 +74,6 @@ class RegisteredAlumniLivewire extends Component
         $this->resetPage();
     }
 
-    // public function delete($id)
-    // {
-    //     $register = RegisteredAlumni::find($id);
-    //     if ( Gate::allows('delete', $register) && $register->delete() ) {
-    //         $this->alert_success('Success!', 'Record has been successfully deleted');
-    //     }
-    // }
 
     public function deleteId($id, $action)
     {
@@ -102,14 +92,4 @@ class RegisteredAlumniLivewire extends Component
         
     }
 
-    // public function selectItem($itemId, $action)
-    // {
-    //     if ($action == 'delete') {
-    //         $this->dispatchBrowserEvent('openDeleteModal');
-    //     }
-    //     else {
-    //         $this->emit('getUserModelId', $itemId);
-    //         $this->dispatchBrowserEvent('openFormModal');
-    //     }
-    // }
 }

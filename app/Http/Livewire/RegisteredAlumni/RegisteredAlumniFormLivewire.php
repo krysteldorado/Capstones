@@ -99,8 +99,8 @@ class RegisteredAlumniFormLivewire extends Component
         'email'=>$register->email, 
         'email_verified_at' => $today,
         'password'=>$register->password,
-         'created_at'=>$today, 
-         'updated_at'=>$today);
+        'created_at'=>$today, 
+        'updated_at'=>$today);
 
         $alums=array('program_id'=>$register->program_id, 'graduated_at'=>$register->graduated_at);
        

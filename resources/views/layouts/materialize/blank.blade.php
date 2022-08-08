@@ -29,6 +29,9 @@
         body {
             background: #F2EDF3;
         }
+        .dshclr {
+            background: linear-gradient(45deg, #da0c0c, #ff5252a1);
+        }
     </style>
     @livewireStyles
 </head>

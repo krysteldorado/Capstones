@@ -5,6 +5,7 @@ namespace App\Http\Livewire\AlumniTracer\Employer;
 use Livewire\Component;
 use App\Models\Employer;
 use Livewire\WithPagination;
+use Livewire\WithFileUploads;
 use App\Http\Traits\ModalTrait;
 use Illuminate\Support\Facades\Gate;
 
@@ -12,6 +13,8 @@ class EmployerSelectLivewire extends Component
 {
     use ModalTrait;
     use WithPagination;
+    use WithFileUploads;
+
     protected $paginationTheme = 'bootstrap';
     
     public $search, $show_row = 5, $create = false;
@@ -96,8 +99,29 @@ class EmployerSelectLivewire extends Component
         if ( Gate::denies('create', Employer::class) ) {
             return;
         }
+
+        // if($data->hasFile("employer.logo")){
+        //     $destination_path = 'public/images/logo';
+        //     $logo = $data->file('employer.logo');
+        //     $image_name = $logo->getClientOriginalName();
+        //     $path = $data->file('employer.logo')->storeAs ($destination_path, $image_name);
+
+        //     $data['employer.logo'] = $image_name;
+
+
+        //     $input = $data->hasfile("logo");
+        //     if($input){
+        //         $destination_path = 'public/images/logo';
+        //         $image = $data->file('employer.logo');
+        //         $image_name = $image->getClientOriginalName();
+        //         $path = $data->file('employer.logo')->storeAs ($destination_path, $image_name);
+        //     }
+    
+        //      }
         
         $employer = Employer::create($data['employer']);
+
+        
     
         if ( $employer->wasRecentlyCreated ) {
             $this->create();
